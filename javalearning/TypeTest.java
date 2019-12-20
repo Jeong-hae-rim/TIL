@@ -51,13 +51,12 @@ public class TypeTest {
 		int e = (int) 1.1; // add cast to int.
 		System.out.println(e); //1
 		
-		int i = (char)65 ;
-		System.out.println(i);
+		int i = 65;
+		System.out.println((char)i);
 		
-		char ch3 = (int)'A' ;
-		System.out.println(ch3);
-		
-		
+		char ch3 = 'A' ;
+		System.out.println((int)ch3);
+
 		
 
 	}
