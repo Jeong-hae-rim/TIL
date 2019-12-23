@@ -8,23 +8,27 @@ public class Exercise4 {
 		//2. int 타입의 변수 result 를 선언한다.
 		
 		int number = 100;
-		int result = number;
+		int result;
 		
 		//3. number 변수의 값에 10을 더하고 결과를 result 에 담아 
 		   //결과를 출력한다.    출력형식 : 덧셈 연산의 결과 - 110
-		System.out.println("출력형식 : 덧셈 연산의 결과 - " + (result+10));
+		result = number + 10 ;
+		System.out.println("출력형식 : 덧셈 연산의 결과 - " + (result));
 		
 		//4. number 변수의 값에 10을 빼고 결과를 result 에 담아 
 		   //결과를 출력한다.    출력형식 : 뺄셈 연산의 결과 - 90
-		System.out.println("출력형식 : 뺄셈 연산의 결과- " + (result-10));
+		result = number - 10 ;
+		System.out.println("출력형식 : 뺄셈 연산의 결과- " + (result));
 		
 		//5. number 변수의 값에 10을 곱하고 결과를 result 에 담아 
 		   //결과를 출력한다.    출력형식 : 곱셈 연산의 결과 - 1000
-		System.out.println("출력형식 : 곱셈 연산의 결과 - " + (result*10));
+		result = number * 10 ;
+		System.out.println("출력형식 : 곱셈 연산의 결과 - " + (result));
 		
 		//6. number 변수의 값에 10을 나누고 결과를 result 에 담아 
 		   //결과를 출력한다.	  출력형식 : 나눗셈 연산의 결과 - 10
-		System.out.println("출력형식 : 나눗셈 연산의 결과 - " + (result/10));
+		result = number / 10 ;
+		System.out.println("출력형식 : 나눗셈 연산의 결과 - " + (result));
 		
 		
 	}

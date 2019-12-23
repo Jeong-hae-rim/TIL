@@ -17,6 +17,8 @@ public class Exercise3 {
 		
 		//왜 숫자로 출력이 될까요?
 		
+		System.out.println("" + name1 + name2 + name3);
+		
 		
 		
 	}
