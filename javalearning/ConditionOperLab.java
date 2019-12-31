@@ -6,7 +6,7 @@ public class ConditionOperLab {
 		
 		
 		int num = (int) (Math.random()*5) + 1;
-		int result = 0;
+		int result;
 		
 		if(num==1) {
 			result = 300 + 50;
@@ -16,9 +16,8 @@ public class ConditionOperLab {
 			result = 300 * 50;
 		}else if(num==4) {
 			result = 300 / 50;
-		}else if(num==5) {
+		}else
 			result = 300 % 50;
-		}
 		
 		System.out.println("°á°ú°ª : " + result);
 		
