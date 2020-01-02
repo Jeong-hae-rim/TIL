@@ -28,10 +28,7 @@ public class Prob {
 		}catch (SQLException e) {
 			System.err.println("DB연동 오류 발생 : " + e);
 		
-		} catch (Exception e) {
-			System.err.println("DB연동 오류 발생 : " + e);
-		
-		}
+		} 
 	}
 		
 }
