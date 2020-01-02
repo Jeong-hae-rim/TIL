@@ -15,7 +15,7 @@ public class SelectEmpLab {
 		} catch(ClassNotFoundException e) {
 			e.printStackTrace();
 		}
-		String sql = "select ename, sal, to_char(hiredate, 'yyyy\"년\" mm\"월\" dd\"일\"')hiredate from"+
+		String sql = "select ename, to_char(sal, '999,999')||'원' sal, to_char(hiredate, 'yyyy\"년\" mm\"월\" dd\"일\"')hiredate from"+
 		                                 " emp"; 
 	
 		Random ran = new Random ();
