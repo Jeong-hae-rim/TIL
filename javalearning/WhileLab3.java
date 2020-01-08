@@ -9,8 +9,8 @@ public class WhileLab3 {
 		char alpha = 'A';
 
 		while (true) {
-			int ran = (int) Math.random() * 31;
-			if (ran == 0 || (27 <= ran && ran <= 31)) {
+			int ran = (int) (Math.random() * 31);
+			if (ran == 0 || (27 <= ran && ran <= 30)) {
 				break;
 			} else {
 				System.out.println((char) alpha + "(" + ran + ")");
