@@ -1,6 +1,5 @@
 package javalearning;
 
-import java.util.Collections;
 
 public class ArrayLab1 {
 
@@ -25,7 +24,7 @@ public class ArrayLab1 {
 			System.out.print(ary[i]+" ");
 		System.out.println();
 		
-		for(int i=ary.length-1; i>=0; i-=2)
+		for(int i=1; i<ary.length; i+=2)
 			System.out.print(ary[i]+" ");
 		System.out.println();
 		
